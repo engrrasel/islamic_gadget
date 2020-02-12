@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="@drawable/background_1"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_marginTop="290dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/faijr" />
+        <ImageView
+            android:layout_marginTop="290dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dohur" />
+
+        <ImageView
+            android:layout_marginTop="290dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/asr" />
+        <ImageView
+            android:layout_marginTop="290dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/magrib" />
+
+        <ImageView
+        android:layout_marginTop="290dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+        android:src="@drawable/asr" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/background_2"
+        tools:visibility="visible">
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/kalima"
+            />
+        <Button
+            android:layout_margin="12dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/salat"
+            />
+        <Button
+            android:layout_margin="12dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ramadan"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="490dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/hajj"
+            />
+        <Button
+            android:layout_margin="12dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/zakat"
+            />
+        <Button
+            android:layout_margin="12dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/more"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
