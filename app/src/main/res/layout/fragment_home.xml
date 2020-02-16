@@ -52,9 +52,6 @@
         android:background="@drawable/background_2"
         tools:visibility="visible">
 
-
-
-
     </LinearLayout>
 
     <LinearLayout

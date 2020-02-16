@@ -30,6 +30,7 @@ import android.widget.TextView;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         textClock=findViewById(R.id.digital_clock);
+
+        Date d = new Date();
+        CharSequence s = android.text.format.DateFormat.format("dd,dd-MMMM",d.getTime());
+
+        TextView textView = findViewById(R.id.date_view);
+        textView.setText(s);
 
 
 
@@ -72,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.menu_icon11);
     }
 
     @Override
